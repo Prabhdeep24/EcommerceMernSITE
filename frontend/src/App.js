@@ -86,7 +86,6 @@ function App() {
               <ProtectedRoute path="/payment" component={Payment} />
             </Elements>
           }
-
           <Route path="/login" component={Login} />
           <Route path="/register" component={Register} />
           <Route path="/password/forgot" component={ForgotPassword} exact />
