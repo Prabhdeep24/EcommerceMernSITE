@@ -49,7 +49,7 @@ nav {
 #view_btn {
   background-color: #febd69;
   padding: 0.4rem 1.8rem;
-  font-family: calibri;
+  font-family: Roboto;
 }
 
 #cart {
@@ -69,6 +69,7 @@ nav {
 /* Home page */
 #products_heading {
   margin-top: 1.8rem;
+  font-family: Roboto;
 }
 
 .card {
@@ -114,12 +115,12 @@ nav {
 }
 
 /* Footer */
-footer {
+/* footer {
   margin-top: 8rem;
   color: grey;
   bottom: 0;
   width: 100%;
-}
+} */
 
 /* Ratings */
 
@@ -613,4 +614,81 @@ ul.CTAs a {
 .review_user {
   font-size: 0.8rem;
   color: grey;
+}
+
+/* Footer */
+footer {
+  margin-top: 5vmax;
+  padding: 2vmax;
+  background-color: rgb(34, 33, 33);
+  color: white;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 10rem;
+}
+
+.leftFooter {
+  width: 20%;
+  display: flex;
+
+  flex-direction: column;
+  align-items: center;
+}
+.leftFooter > h4 {
+  font-family: "Roboto";
+  font-size: 1vmax;
+}
+.leftFooter > p {
+  text-align: center;
+  font-size: 1.2vmax;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.leftFooter > img {
+  width: 10vmax;
+  margin: 1vmax;
+  cursor: pointer;
+}
+
+.midFooter {
+  width: 60%;
+
+  text-align: center;
+}
+
+.midFooter > h1 {
+  font-size: 2vmax;
+  font-family: "Roboto";
+  color: white;
+}
+.midFooter > p {
+  max-width: 60%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  margin: 1vmax auto;
+}
+
+.rightFooter {
+  width: 20%;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.rightFooter > h4 {
+  font-family: "Roboto";
+  font-size: 1.4vmax;
+  text-decoration: underline;
+}
+.rightFooter > a {
+  text-decoration: none;
+  font-size: 1.3vmax;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: white;
+  transition: all 0.5s;
+  margin: 0.5vmax;
+}
+
+.rightFooter > a:hover {
+  color: #eb4034;
 }
