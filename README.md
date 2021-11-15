@@ -1,9 +1,9 @@
-Install Dependencies (Frontend)
+## Install Dependencies (Frontend)
 cd frontend
 npm i
 
-Install Dependencies (Backend)
+## Install Dependencies (Backend)
 npm i
 
 
-live - 
+## live  
